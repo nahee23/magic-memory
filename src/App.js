@@ -57,7 +57,7 @@ function App() {
         setTimeout(() => resetTurn(), 1000);
       }
     }
-  }, [choiceOne, choiceTwo, resetTurn]);
+  }, [choiceOne, choiceTwo]);
   //처음 시작시 한번 실행
   useEffect(() => shuffleCards(), []); //처음 렌더링 될 때 카드 섞기
   //선택한 카드들 리셋
@@ -74,7 +74,7 @@ function App() {
       alert("게임 클리어! 턴수: " + turns);
       shuffleCards(); // 알림 후 새 게임 시작
     }
-  }, [cards, turns]);
+  }, [cards]);
 
   return (
     <div className="App">
