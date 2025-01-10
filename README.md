@@ -1,11 +1,31 @@
 # Getting Started with Create React App
 
-CLI 에서 이 프로젝트 폴더로 이동후 아래의 코드 넣기
+### Magic-Memory ✨
 
-### `npm install`
+🌟 주요 기능
 
+    - 카드 매칭: 동일한 카드 쌍을 찾아 매칭.🃏🃏
 
-### `npm start`
+    - 턴 카운트: 게임 중 사용된 턴 수를 실시간으로 표시.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+    - 새 게임 시작: 게임 완료 후 새로운 게임을 시작할 수 있는 기능.
+
+    - 게임 완료 알림: 모든 카드를 매칭했을 때 완료 알림 표시.
+
+💻 사용 기술
+
+    - React: 상태 관리와 UI 구성.
+
+    - CSS: 스타일링을 통한 게임 화면 디자인
+
+📝 게임 방법 1. 카드 선택: 카드 중 하나를 클릭하여 선택합니다.
+
+    2. 카드 비교: 두 번째 카드를 클릭하여 선택한 두 카드가 매칭되는지 확인합니다.
+
+    3. 매칭되지 않으면 1초 후 카드가 뒤집힙니다.
+
+    4. 매칭되면 카드가 고정됩니다.
+
+    5. 게임 완료: 모든 카드가 매칭되면 알림이 표시되고 새로운 게임이 시작됩니다.
+
+[배포주소](https://magic-memory-nahee23.netlify.app/)
